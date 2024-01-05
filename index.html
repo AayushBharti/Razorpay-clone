@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- NavBar -->
     <nav class="bg-deepBlue">
         <div class="relative w-[1080px] mx-auto flex items-center justify-between">
             
@@ -74,10 +75,89 @@
                 <button class="py-3 px-4 font-mullish rounded-sm text-sm bg-white text-lightBlue300 border transition-all duration-200 hover:text-lightBlue500
                  font-bold">Sign Up</button>
             </div>
+        </div>
+    </nav>
 
-
+    <!-- HeroSection -->
+    <section class="relative bg-deepBlue ">
+        <div class="flex width-10/12 max-w-[1080px] flex-row justify-between items-center mx-auto">
+            <!--leftPart-->
+            <div class="flex flex-col gap-9 ">
+                <h1 class="text-white font-mullish font-bold text-[40px] leading-[1.2]">Power your finance, grow your business</h1>
+                <div class="w-6 h-1 bg-greenLight rounded-sm"></div>
+                <p class="text-white font-mullish text-[18px] opacity-70 leading-7">
+                    Accept parments from customers, Automate payouts to vendors &
+                    employess. Never run out of working captial.
+                </p>
+                <button class="text-white bg-lightBlue rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200 py-[15px] px-[11px] max-w-40">Sign Up Now </button>
+            </div>
+            <!--rightPart-->
+            <img src="./images/hero-illustration.jpg" class="w-full max-w-[680px]">
+            
         </div>
 
-    </nav>
+        <!--triangleShape-->
+        <img src="./images/hero-shape.svg" class="w-[103%] absolute left-0 right-0 h-60 ">
+    </section>
+
+
+    <!--FeatureSection-->
+    <section class="relative mt-[190px] overflow-hidden">
+        <img src="./images/feature-section1-dottedrows.png" alt="" loading="lazy"
+        class="absolute -top-[8rem] left-[10rem] inline-block" 
+        width="233"
+        height="167">
+
+        <img src="./images/feature-section1-dottedrows.png" alt="" loading="lazy"
+        class="absolute top-[3rem] right-0 inline-block rotate-180" 
+        width="233"
+        height="167">
+
+        <div class="w-11/12 max-w-[1080px] mx-auto pt-4 ">
+            <!--heading-->
+            <h2 class="font-mullish font-bold text-2xl leading-[1.2] text-center">
+                Accept Payments with Razorpay Payment Suits
+            </h2>
+            <div class="w-6 h-1 bg-greenLight rounded-sm mx-auto "></div>
+
+            <!--contentBox-->
+            <div class="w-[1080px] flex flex-row">
+                <!--leftSection-->
+                <div>
+                    <h3 class="text-black font-mullish font-bold text-[29px]">
+                        Supercharge your business with the all-powerful 
+                        <span class="text-lightBlue"> Payment Gateway</span>
+                    </h3>
+                    <ul>
+                        <li>
+                            100+ Payment Methods</li>
+                        <li>
+                            Industry Leading Success Rate</li>
+                        <li>
+                            Superior Checkout Experience</li>
+                        <li>
+                            Easy to Integrate</li>
+                        <li>
+                            Instant Settlements from day 1</li>
+                        <li>
+                             In-depth Reporting and Insights</li>
+                    </ul>
+
+                    <!--for button and hyperlink-->
+                    <div>
+                        <button>Sign Up Now</button>
+                        <!--hyperlink-->
+                        <div>
+                            <a href="">Know More</a>
+                            <i></i>
+                        </div>
+                    </div>
+                    <img src="./images/payment-suite.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 </body>
 </html>
